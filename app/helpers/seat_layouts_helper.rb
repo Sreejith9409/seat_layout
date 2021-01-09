@@ -1,0 +1,2 @@
+module SeatLayoutsHelper
+end

@@ -1,0 +1,53 @@
+<div>
+  <div class="corner-top" align='center'>
+    <b><h4>Seat Layout Structure</h4></b>
+  </div>
+  <br/>
+  <div style="padding-bottom: 10px" align="center">
+    <div align='right'>
+      <div class="form-inline">
+        <div class="form-group">
+          <div style="width:30px;height:20px;border:1px solid #000; background-color: green;"></div><div>Window seat</div>
+          <div style="width:30px;height:20px;border:1px solid #000; background-color: #87cefa;"></div><div>Middle seat</div>
+          <div style="width:30px;height:20px;border:1px solid #000; background-color: #d61d21;"></div><div>Aisle seat</div>
+        </div>
+      </div>
+    </div>
+    <%= form_tag url_for(:controller => "seat_layouts", :action => "construct_layout", :id => "requests_form"), :remote => true do-%>
+      <table class='table table-bordered'>
+        <tr>
+          <td>Enter number of passengers</td>
+          <td colspan="2"><%= text_field_tag :no_of_pass, '', :class => 'big', :autocomplete => "off", :placeholder=> "Enter Passengers Cnt", :required=>"true", :type=> 'number' %></td>
+        </tr>
+        <tr>
+          <td>Enter number of columns and rows</td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[cols][0]', :autocomplete => "off", :placeholder=> "Columns", :required=>"true", :type=> 'number'  %></td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[rows][0]', :autocomplete => "off", :placeholder=> "Rows", :required=>"true", :type=> 'number'  %></td>
+        </tr>
+        <tr>
+          <td>Enter number of columns and rows</td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[cols][1]', :autocomplete => "off", :placeholder=> "Columns", :required=>"true", :type=> 'number'  %></td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[rows][1]', :autocomplete => "off", :placeholder=> "Rows", :required=>"true", :type=> 'number'  %></td>
+        </tr>
+        <tr>
+          <td>Enter number of columns and rows</td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[cols][2]', :autocomplete => "off", :placeholder=> "Columns", :required=>"true", :type=> 'number'  %></td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[rows][2]', :autocomplete => "off", :placeholder=> "Rows", :required=>"true", :type=> 'number'  %></td>
+        </tr>
+        <tr>
+          <td>Enter number of columns and rows</td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[cols][3]', :autocomplete => "off", :placeholder=> "Columns", :required=>"true", :type=> 'number'  %></td>
+          <td><%= text_field_tag :layout_structure, '', :class => 'big', :name => 'layout[rows][3]', :autocomplete => "off", :placeholder=> "Rows", :required=>"true", :type=> 'number'  %></td>
+        </tr>
+      </table>
+      <br/>
+      <div class="form-actions">
+        <div class="btns" align="center"><%= submit_tag 'Submit' , :class => "btn btn-sm btn-primary GTM-QL-show- authentications"%></div>
+      </div>
+    <% end -%>
+    <br/>
+    <br/>
+    <br/>
+    <div id = "seat_layout_structure"></div>
+  </div>
+</div>

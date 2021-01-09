@@ -1,0 +1,6 @@
+<% if flash[:error].present? %>
+  alert("<%= flash[:error] %>");
+  <% flash[:error] = nil %>
+<% else %>
+  $("#seat_layout_structure").html("<%= escape_javascript(render(:partial => 'seat_layout_structure')) %>");
+<% end %>

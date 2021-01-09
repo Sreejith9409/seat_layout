@@ -1,0 +1,320 @@
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 1358)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}, "no_of_pass"=>"20"}
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 1357)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 627)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}, "no_of_pass"=>"20"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 1357)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 627)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}, "no_of_pass"=>"20"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 1357)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 627)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}, "no_of_pass"=>"20"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 1357)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 627)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 1379)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 627)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1842)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as HTML
+  Parameters: {"layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"2"}}}
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 1330)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1842)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1842)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.1ms | Allocations: 59)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 822)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1842)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.5ms | Allocations: 59)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 824)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1452)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.5ms | Allocations: 59)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 435)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3453)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.1ms | Allocations: 59)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 432)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#index as HTML
+  Rendering seat_layouts/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 266)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.2ms | Allocations: 60)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1452)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SeatLayoutsController#construct_layout as JS
+  Parameters: {"commit"=>"Submit", "id"=>"requests_form", "layout"=>{"cols"=>{"0"=>"1", "1"=>"2", "2"=>"5", "3"=>"2"}, "rows"=>{"0"=>"2", "1"=>"2", "2"=>"4", "3"=>"3"}}, "no_of_pass"=>"20"}
+  Rendering seat_layouts/construct_layout.js.erb
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered seat_layouts/construct_layout.js.erb (Duration: 0.3ms | Allocations: 59)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 432)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
